@@ -2,11 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
-
+from selenium.webdriver.support.wait import WebDriverWait
 # for firefox compatibility
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
-
-from selenium.webdriver.support.wait import WebDriverWait
 
 
 def clearLoginInput(login_input, password_input):
@@ -21,9 +19,9 @@ def log_in(_login, _password):
 
         clearLoginInput(username_input, password_input)
 
-        username_input.send_keys(login)
+        username_input.send_keys(_login)
         driver.implicitly_wait(1)
-        password_input.send_keys(password)
+        password_input.send_keys(_password)
         driver.implicitly_wait(2)
         password_input.send_keys(Keys.RETURN)
     except Exception as ex:
@@ -31,9 +29,9 @@ def log_in(_login, _password):
         driver.quit()
 
 
-binary = FirefoxBinary('C:\\Users\\piotr.switakowski\\AppData\Local\\Mozilla Firefox\\firefox.exe')
-driver = webdriver.Firefox(firefox_binary=binary, executable_path='C:\Python\geckodriver.exe')
-# driver = webdriver.Chrome('C:\Python\chromedriver.exe')
+#binary = FirefoxBinary('C:\\Users\\piotr.switakowski\\AppData\Local\\Mozilla Firefox\\firefox.exe')
+#driver = webdriver.Firefox(firefox_binary=binary, executable_path='C:\Python\geckodriver.exe')
+driver = webdriver.Chrome('C:\Python\chromedriver.exe')
 driver.get("https://instagram.com")
 
 login = "nalif271@wp.pl"
@@ -41,5 +39,4 @@ password = "owlcity1"
 
 log_in(login, password)
 
-# driver.quit()
 
