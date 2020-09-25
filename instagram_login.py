@@ -1,3 +1,5 @@
+import time
+import random
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -7,9 +9,22 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 
-def clearLoginInput(login_input, password_input):
-    login_input.clear()
-    password_input.clear()
+def getDriver():
+    options = webdriver.ChromeOptions()
+    options.add_argument("start-maximized")     # self-explanatory
+    options.add_argument("--disable-blink-features=AutomationControlled")       # disables "automated" pop-up, also helps not getting detected
+    _driver = webdriver.Chrome(executable_path='C:\Python\chromedriver.exe', options=options)
+    return _driver
+
+
+def clearInput(*args):
+    for x in args:
+        x.clear()
+
+
+def waitRandomTime():
+    random.seed()
+    time.sleep(random.uniform(0.1, 3.0))
 
 
 def log_in(_login, _password):
@@ -17,22 +32,24 @@ def log_in(_login, _password):
         username_input = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.NAME, 'username')))
         password_input = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.NAME, 'password')))
 
-        clearLoginInput(username_input, password_input)
+        clearInput(username_input, password_input)
 
         username_input.send_keys(_login)
-        driver.implicitly_wait(1)
+        waitRandomTime()
         password_input.send_keys(_password)
-        driver.implicitly_wait(2)
+        waitRandomTime()
         password_input.send_keys(Keys.RETURN)
     except Exception as ex:
         print(ex)
         driver.quit()
 
 
-#binary = FirefoxBinary('C:\\Users\\piotr.switakowski\\AppData\Local\\Mozilla Firefox\\firefox.exe')
-#driver = webdriver.Firefox(firefox_binary=binary, executable_path='C:\Python\geckodriver.exe')
-driver = webdriver.Chrome('C:\Python\chromedriver.exe')
-driver.get("https://instagram.com")
+# binary = FirefoxBinary('C:\\Users\\piotr.switakowski\\AppData\Local\\Mozilla Firefox\\firefox.exe')
+# driver = webdriver.Firefox(firefox_binary=binary, executable_path='C:\Python\geckodriver.exe')
+driver = getDriver()
+
+start_url = "https://instagram.com"
+driver.get(start_url)
 
 login = "nalif271@wp.pl"
 password = "owlcity1"
