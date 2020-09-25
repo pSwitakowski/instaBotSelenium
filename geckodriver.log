@@ -1331,3 +1331,1925 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught e
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 ConvertWinError received an unrecognized WinError: 0x70
+1601029971604	geckodriver	INFO	Listening on 127.0.0.1:65284
+1601030037785	geckodriver	INFO	Listening on 127.0.0.1:65309
+1601030112399	geckodriver	INFO	Listening on 127.0.0.1:65331
+1601030115415	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "--disable-blink-features=AutomationControlled" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilezFE2pU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601030123279	Marionette	INFO	Listening on port 65339
+1601030124159	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601030131723	Marionette	INFO	Stopped listening on port 65339
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601030149396	geckodriver	INFO	Listening on 127.0.0.1:65407
+1601030152404	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofile8CPnfj"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601030157777	Marionette	INFO	Listening on port 65416
+1601030159030	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1601030161077	Marionette	INFO	Stopped listening on port 65416
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601030172680	geckodriver	INFO	Listening on 127.0.0.1:65478
+1601030175683	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileH3PxdQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601030182411	Marionette	INFO	Listening on port 65486
+1601030183912	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601030240306	Marionette	INFO	Stopped listening on port 65486
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rs\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilecM2y6s"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601030245520	Marionette	INFO	Listening on port 49204
+1601030247193	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601030257748	Marionette	INFO	Stopped listening on port 49204
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601030294708	geckodriver	INFO	Listening on 127.0.0.1:49291
+1601030297736	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileLHKdmz"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601030304514	Marionette	INFO	Listening on port 49299
+1601030305547	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+IPDL protocol error: Handler returned error code!
+
+###!!! 1601030334977	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilegPujKS"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601030341469	Marionette	INFO	Listening on port 57521
+1601030342696	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+IPDL protocol error: Handler returned error code!
+
+###!!! 1601030453232	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileGWPS31"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601030461441	Marionette	INFO	Listening on port 58037
+1601030462976	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601030479395	Marionette	INFO	Stopped listening on port 58037
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601030451812	Marionette	INFO	Stopped listening on port 57521
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601030612224	geckodriver	INFO	Listening on 127.0.0.1:58355
+1601030615224	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilemSZmMc"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601030621871	Marionette	INFO	Listening on port 58367
+1601030622989	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601030641715	Marionette	INFO	Stopped listening on port 58367
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601030916998	geckodriver	INFO	Listening on 127.0.0.1:58771
+1601030920007	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofile2G6Bx0"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601030925624	Marionette	INFO	Listening on port 58779
+1601030926650	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601030947546	Marionette	INFO	Stopped listening on port 58779
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601030965208	geckodriver	INFO	Listening on 127.0.0.1:59128
+1601030968224	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileeEblfG"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601030973830	Marionette	INFO	Listening on port 59136
+1601030974845	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601030992978	Marionette	INFO	Stopped listening on port 59136
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601031330186	geckodriver	INFO	Listening on 127.0.0.1:59661
+1601031333196	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileM8yT2b"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601031342417	Marionette	INFO	Listening on port 59671
+1601031342933	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1601031363686	Marionette	INFO	Stopped listening on port 59671
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601031783545	geckodriver	INFO	Listening on 127.0.0.1:52742
+1601031786563	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileSTWLJS"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601031791764	Marionette	INFO	Listening on port 52750
+1601031792683	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601032006103	Marionette	INFO	Stopped listening on port 52750
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601033740601	geckodriver	INFO	Listening on 127.0.0.1:53707
+1601033743583	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileywuc78"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601033751360	Marionette	INFO	Listening on port 53721
+1601033753059	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601033774107	Marionette	INFO	Stopped listening on port 53721
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601033937099	geckodriver	INFO	Listening on 127.0.0.1:54067
+1601033940109	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilee7XtcP"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601033946983	Marionette	INFO	Listening on port 54078
+1601033948367	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601033974017	Marionette	INFO	Stopped listening on port 54078
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601034974018	geckodriver	INFO	Listening on 127.0.0.1:55116
+1601034977031	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileh9d02G"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601034983521	Marionette	INFO	Listening on port 55125
+1601034984274	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601035008237	Marionette	INFO	Stopped listening on port 55125
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601035057721	geckodriver	INFO	Listening on 127.0.0.1:55354
+1601035065461	geckodriver	INFO	Listening on 127.0.0.1:55364
+1601035068473	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileFS5yVm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390038,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39004C,name=PContent::Msg_NotifyProcessPriorityChanged) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 1452, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/messaging-experiments sync interrupted by shutdown
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 688))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601035080792	geckodriver	INFO	Listening on 127.0.0.1:55413
+1601035083817	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilePbkVkz"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601035089623	Marionette	INFO	Listening on port 55424
+1601035090944	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1601035223901	Marionette	INFO	Stopped listening on port 55421601035224926	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileMKdOvx"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601035230986	Marionette	INFO	Listening on port 55702
+1601035232071	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601035383648	Marionette	INFO	Stopped listening on port 55702
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601035385429	geckodriver	INFO	Listening on 127.0.0.1:56105
+1601035388445	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileT1aQ3J"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601035395165	Marionette	INFO	Listening on port 56115
+1601035396702	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601035428061	Marionette	INFO	Stopped listening on port 56115
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601035754663	geckodriver	INFO	Listening on 127.0.0.1:56738
+1601035757676	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileLA7PZQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601035764512	Marionette	INFO	Listening on port 56750
+1601035766490	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17892, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+IPDL protocol error: Handler returned error code!
+
+###!!! 1601036047660	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofile6IQiTr"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601036054574	Marionette	INFO	Listening on port 50860
+1601036055918	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601036133678	Marionette	INFO	Stopped listening on port 50860
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+sing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601036046289	Marionette	INFO	Stopped listening on port 56750
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601036131292	geckodriver	INFO	Listening on 127.0.0.1:51110
+1601036134298	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileD70xXR"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601036139562	Marionette	INFO	Listening on port 51122
+1601036140946	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601036244559	Marionette	INFO	Stopped listening on port 51122
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+a\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofile5Ljan6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601036238114	Marionette	INFO	Listening on port 51389
+1601036238256	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsynJavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601036355033	Marionette	INFO	Listening on port 51703
+1601036356096	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601036657559	Marionette	INFO	Stopped listening on port 51703
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+sing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601036351673	Marionette	INFO	Stopped listening on port 51389
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601037605881	geckodriver	INFO	Listening on 127.0.0.1:54704
+1601037608864	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileLmxz9k"
+1601037615307	geckodriver	INFO	Listening on 127.0.0.1:54719
+1601037618354	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofile5JdQyK"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601037625060	Marionette	INFO	Listening on port 54729
+1601037626610	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601037903417	Marionette	INFO	Stopped listening on port 54729
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rs\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileeGO5FS"
+1601037707392	geckodriver	INFO	Listening on 127.0.0.1:54972
+1601037710407	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilemDw7j7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601037715160	Marionette	INFO	Listening on port 54982
+1601037716021	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601037902766	Marionette	INFO	Stopped listening on port 54982
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601038012844	geckodriver	INFO	Listening on 127.0.0.1:55428
+1601038015856	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilenRn5qO"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601038021080	Marionette	INFO	Listening on port 55439
+1601038022001	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601038439682	Marionette	INFO	Stopped listening on port 55439
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601038745958	geckodriver	INFO	Listening on 127.0.0.1:50032
+1601038748952	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilePD6ON7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1601038753834	Marionette	INFO	Listening on port 50046
+1601038754891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601038771985	Marionette	INFO	Stopped listening on port 50046
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601038853705	geckodriver	INFO	Listening on 127.0.0.1:56850
+1601038856672	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileVMUxVM"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601038862507	Marionette	INFO	Listening on port 56862
+1601038864315	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39013F,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+[Child 4460, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+160JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601039122952	Marionette	INFO	Listening on port 57232
+1601039123033	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601039767322	Marionette	INFO	Stopped listening on port 57231601039767697	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileO9ipxE"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601039771888	Marionette	INFO	Listening on port 57910
+1601039772028	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601040407223	Marionette	INFO	Stopped listening on port 57910
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rs\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileja08DG"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601040076966	Marionette	INFO	Listening on port 58189
+1601040077708	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601040408346	Marionette	INFO	Stopped listening on port 58189
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rs\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileSfi0Ll"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601040365644	Marionette	INFO	Listening on port 58486
+1601040367306	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601040409253	Marionette	INFO	Stopped listening on port 58486
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rs\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilevlLBgh"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601040412919	Marionette	INFO	Listening on port 58727
+1601040414134	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601040479408	Marionette	INFO	Stopped listening on port 58721601040481015	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilef6ZrPe"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601040485679	Marionette	INFO	Listening on port 58925
+1601040486002	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601040525097	Marionette	INFO	Stopped listening on port 58921601040527127	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileOUgDPg"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601040531865	Marionette	INFO	Listening on port 59124
+1601040532783	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601040930443	Marionette	INFO	Stopped listening on port 59124
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rs\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileY9ZpYy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601040629709	Marionette	INFO	Listening on port 59355
+1601040630725	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601040689287	Marionette	INFO	Stopped listening on port 59351601040689672	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofile7NvnMJ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601040694343	Marionette	INFO	Listening on port 59565
+1601040695313	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601040742460	Marionette	INFO	Stopped listening on port 59565
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601040758834	geckodriver	INFO	Listening on 127.0.0.1:59764
+1601040761886	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilem8uacT"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601040768745	Marionette	INFO	Listening on port 59772
+1601040769143	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1601040926418	Marionette	INFO	Stopped listening on port 59772
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rs\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileVtMYzF"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601040926931	Marionette	INFO	Listening on port 59996
+1601040928344	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601040951131	Marionette	INFO	Stopped listening on port 59996
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601041051524	geckodriver	INFO	Listening on 127.0.0.1:60244
+1601041054549	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileqsuvH4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601041059319	Marionette	INFO	Listening on port 60253
+1601041060153	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601041082291	Marionette	INFO	Stopped listening on port 60253
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601041095247	geckodriver	INFO	Listening on 127.0.0.1:60458
+1601041098246	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileIdAcSy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601041103469	Marionette	INFO	Listening on port 60468
+1601041105137	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returneJavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601041378661	Marionette	INFO	Stopped listening on port 60819
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+sing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601041358276	Marionette	INFO	Stopped listening on port 60468
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601041427963	geckodriver	INFO	Listening on 127.0.0.1:61043
+1601041430966	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilevScpLy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601041435570	Marionette	INFO	Listening on port 61053
+1601041436152	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601042074251	Marionette	INFO	Stopped listening on port 61053
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rs\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofile3SizVw"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601041637252	Marionette	INFO	Listening on port 61464
+1601041638088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: /_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.pl.dg_3R9kf5qw.es5.O/am=Cw/d=1/excm=_b,_tp,displayintroui/ed=1/dg=0/wt=2/ct=zgms/rs=AOaEmlG2rmDSAU2YubJNIt6f9_7ZpqkC_Q/m=_b,_tp, line 467: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: /_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.pl.dg_3R9kf5qw.es5.O/am=Cw/d=1/excm=_b,_tp,displayintroui/ed=1/dg=0/wt=2/ct=zgms/rs=AOaEmlG2rmDSAU2YubJNIt6f9_7ZpqkC_Q/m=_b,_tp, line 467: NS_ERROR_NOT_INITIALIZED: 
+1601042075272	Marionette	INFO	Stopped listening on port 61464
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601042076183	Marionette	INFO	Stopped listening on port 61791
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rs\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileU0maLM"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601041804531	Marionette	INFO	Listening on port 61999
+1601041805954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601042077093	Marionette	INFO	Stopped listening on port 61999
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+a\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofiletcv0eJ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601041852630	Marionette	INFO	Listening on port 62243
+1601041853991	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601041983066	Marionette	INFO	Stopped listening on port 62243
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601041985079	geckodriver	INFO	Listening on 127.0.0.1:62519
+1601041988085	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilePDff4j"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601041995083	Marionette	INFO	Listening on port 62537
+1601041996381	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601042078195	Marionette	INFO	Stopped listening on port 62537
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601042254265	geckodriver	INFO	Listening on 127.0.0.1:62959
+1601042260670	geckodriver	INFO	Listening on 127.0.0.1:62966
+1601042263697	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilelmdSD0"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601042269422	Marionette	INFO	Listening on port 62976
+1601042270325	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601042273458	Marionette	INFO	Stopped listening on port 62976
+[Parent 3568, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601042298387	geckodriver	INFO	Listening on 127.0.0.1:63058
+1601042301406	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileJRcmpf"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601042306105	Marionette	INFO	Listening on port 63067
+1601042307521	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1601043180780	Marionette	INFO	Stopped listening on port 63067
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+leqa4XSr"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601042701166	Marionette	INFO	Listening on port 63608
+1601042702300	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601042787542	Marionette	INFO	Stopped listening on port 63608
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601042792548	geckodriver	INFO	Listening on 127.0.0.1:63743
+1601042795564	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileigJfMF"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601042800147	Marionette	INFO	Listening on port 63757
+1601042800463	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601043179069	Marionette	INFO	Stopped listening on port 63757
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601043491424	geckodriver	INFO	Listening on 127.0.0.1:64426
+1601043494448	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilelqmOq3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601043499408	Marionette	INFO	Listening on port 64438
+1601043499564	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601043536080	Marionette	INFO	Stopped listening on port 64438
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601043578419	geckodriver	INFO	Listening on 127.0.0.1:64664
+1601043581445	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileYGUKEj"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601043585788	Marionette	INFO	Listening on port 64673
+1601043586562	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601043807275	Marionette	INFO	Stopped listening on port 64673
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rs\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileeAh5Ca"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601043716254	Marionette	INFO	Listening on port 64951
+1601043716531	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601043750267	Marionette	INFO	Stopped listening on port 64951
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601043798917	geckodriver	INFO	Listening on 127.0.0.1:65182
+1601043801946	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileWpO0UC"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601043806865	Marionette	INFO	Listening on port 65191
+1601043807606	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601043846190	Marionette	INFO	Stopped listening on port 65191
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601043944515	geckodriver	INFO	Listening on 127.0.0.1:65452
+1601043947520	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilentDZRh"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601043952819	Marionette	INFO	Listening on port 65462
+1601043953646	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601043993788	Marionette	INFO	Stopped listening on port 65462
+[Child 17676, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601046215665	geckodriver	INFO	Listening on 127.0.0.1:60790
+1601046218650	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofile2tfXOP"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601046228596	Marionette	INFO	Listening on port 60800
+1601046234702	geckodriver	INFO	Listening on 127.0.0.1:60844
+1601046237705	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "accept-language=en-US" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofile29Zl6S"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601046246411	Marionette	INFO	Listening on port 60854
+1601046247282	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601046296152	Marionette	INFO	Stopped listening on port 60854
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601046304791	geckodriver	INFO	Listening on 127.0.0.1:60972
+1601046307807	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "accept-language=en-US" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilejxmMFG"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601046315932	Marionette	INFO	Listening on port 60981
+1601046317071	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601046336949	geckodriver	INFO	Listening on 127.0.0.1:61053
+1601046339949	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "accept-language=en-US" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileX6QHnN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601046365330	geckodriver	INFO	Listening on 127.0.0.1:61118
+1601046368330	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileJf7S4D"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601046377045	Marionette	INFO	Listening on port 61128
+1601046378334	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 20948, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+[Child 20948, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+1601046395771	Marionette	INFO	Stopped listening on port 61128
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601046490404	geckodriver	INFO	Listening on 127.0.0.1:61276
+1601046493407	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileht8XIl"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601046504441	Marionette	INFO	Listening on port 61286
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1601046511997	geckodriver	INFO	Listening on 127.0.0.1:61330
+1601046514996	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileaZIWQY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601046525108	Marionette	INFO	Listening on port 61339
+1601046526503	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601046561846	Marionette	INFO	Stopped listening on port 61339
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601046564278	geckodriver	INFO	Listening on 127.0.0.1:61566
+1601046567288	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilecGwP8C"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601046576311	Marionette	INFO	Listening on port 61578
+1601046578713	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsynJavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601046721065	Marionette	INFO	Listening on port 61895
+1601046723472	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601046772237	Marionette	INFO	Stopped listening on port 61895
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601046718243	Marionette	INFO	Stopped listening on port 61578
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601046763011	geckodriver	INFO	Listening on 127.0.0.1:62126
+1601046766001	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofile2Wby1R"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601046776451	Marionette	INFO	Listening on port 62137
+1601046778604	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601046863334	Marionette	INFO	Stopped listening on port 62137
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1601046891304	geckodriver	INFO	Listening on 127.0.0.1:62424
+1601046894341	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileyXjSqa"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601046904766	Marionette	INFO	Listening on port 62436
+1601046906707	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsynJavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601046999511	Marionette	INFO	Listening on port 62718
+1601047001294	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601047018716	Marionette	INFO	Stopped listening on port 62718
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601046995846	Marionette	INFO	Stopped listening on port 62436
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601047116978	geckodriver	INFO	Listening on 127.0.0.1:63002
+1601047119974	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilemhoCrZ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601047128465	Marionette	INFO	Listening on port 63012
+1601047131044	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1601047239162	geckodriver	INFO	Listening on 127.0.0.1:63315
+1601047242101	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilepz7HAu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601047250327	Marionette	INFO	Listening on port 63325
+1601047251964	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601047401834	Marionette	INFO	Stopped listening on port 63325
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601047554499	geckodriver	INFO	Listening on 127.0.0.1:51079
+1601047556874	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofile1Xiird"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1601047573540	Marionette	INFO	Listening on port 51092
+1601047574765	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601047575203	Marionette	ERROR	[34] No reply from Marionette:Register
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601047585179	Marionette	INFO	Stopped listening on port 51092
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601047597378	geckodriver	INFO	Listening on 127.0.0.1:57963
+1601047600401	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilefOOD0j"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1601047604237	Marionette	INFO	Listening on port 57974
+1601047604550	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601047638149	Marionette	INFO	Stopped listening on port 57974
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601047703641	geckodriver	INFO	Listening on 127.0.0.1:55458
+1601047706647	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilekp02Un"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601047712729	Marionette	INFO	Listening on port 55466
+1601047713081	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601047757189	Marionette	INFO	Stopped listening on port 55466
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601047763003	geckodriver	INFO	Listening on 127.0.0.1:55688
+1601047766005	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileHczEcr"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601047770493	Marionette	INFO	Listening on port 55696
+1601047771614	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601047809376	Marionette	INFO	Stopped listening on port 55696
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601048743146	geckodriver	INFO	Listening on 127.0.0.1:52062
+1601048746180	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilenf4KTC"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601048751739	Marionette	INFO	Listening on port 52070
+1601048752830	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601048790925	Marionette	INFO	Stopped listening on port 52070
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601048823973	geckodriver	INFO	Listening on 127.0.0.1:52259
+1601048826994	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofilekkDrhL"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601048832317	Marionette	INFO	Listening on port 52272
+1601048833634	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601048874091	Marionette	INFO	Stopped listening on port 52272
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601048895591	geckodriver	INFO	Listening on 127.0.0.1:52461
+1601048898590	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileADgzSx"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601048904884	Marionette	INFO	Listening on port 52473
+1601048905921	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601048949907	Marionette	INFO	Stopped listening on port 52473
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601048958597	geckodriver	INFO	Listening on 127.0.0.1:52647
+1601048961611	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileE6HDzR"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601048968035	Marionette	INFO	Listening on port 52661
+1601048969271	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://owlymail.com/js/scripts.js?v=5.81, line 1: ReferenceError: $ is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://temp-mail.org"
+JavaScript error: https://rapidapi.com/Privatix/api/temp-mail line 3822 > injectedScript, line 2: TypeError: a is null
+1601049257665	Marionette	INFO	Stopped listening on port 52661
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601062225053	geckodriver	INFO	Listening on 127.0.0.1:52721
+1601062228000	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofiledu9DMr"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601062238071	Marionette	INFO	Listening on port 52733
+1601062239416	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1601062262550	Marionette	INFO	Stopped listening on port 52733
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601062265817	geckodriver	INFO	Listening on 127.0.0.1:52919
+1601062268856	mozrunner::runner	INFO	Running command: "C:\\Users\\piotr.switakowski\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PIOTR~1.SWI\\AppData\\Local\\Temp\\rust_mozprofileTRmfX3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601062276312	Marionette	INFO	Listening on port 52928
+1601062277982	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: /_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.pl.dg_3R9kf5qw.es5.O/am=Cw/d=1/excm=_b,_tp,displayintroui/ed=1/dg=0/wt=2/ct=zgms/rs=AOaEmlG2rmDSAU2YubJNIt6f9_7ZpqkC_Q/m=_b,_tp, line 467: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: /_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.pl.dg_3R9kf5qw.es5.O/am=Cw/d=1/excm=_b,_tp,displayintroui/ed=1/dg=0/wt=2/ct=zgms/rs=AOaEmlG2rmDSAU2YubJNIt6f9_7ZpqkC_Q/m=_b,_tp, line 467: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: /_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.pl.dg_3R9kf5qw.es5.O/am=Cw/d=1/excm=_b,_tp,displayintroui/ed=1/dg=0/wt=2/ct=zgms/rs=AOaEmlG2rmDSAU2YubJNIt6f9_7ZpqkC_Q/m=_b,_tp, line 467: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: /_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.pl.dg_3R9kf5qw.es5.O/am=Cw/d=1/excm=_b,_tp,displayintroui/ed=1/dg=0/wt=2/ct=zgms/rs=AOaEmlG2rmDSAU2YubJNIt6f9_7ZpqkC_Q/m=_b,_tp, line 467: NS_ERROR_NOT_INITIALIZED: 
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LfFQ5hcFG3hXPsOLdOnrUHUTGTSsMRvOgIlCDTigNb8.js line 1 > eval line 2198 > eval, line 1: Script terminated by timeout at:
+F@https://pagead2.googlesyndication.com/bg/LfFQ5hcFG3hXPsOLdOnrUHUTGTSsMRvOgIlCDTigNb8.js line 1 > eval line 2198 > eval:1:22
+@https://pagead2.googlesyndication.com/bg/LfFQ5hcFG3hXPsOLdOnrUHUTGTSsMRvOgIlCDTigNb8.js line 1 > eval line 2198 > eval:1:43
+o$@https://pagead2.googlesyndication.com/bg/LfFQ5hcFG3hXPsOLdOnrUHUTGTSsMRvOgIlCDTigNb8.js line 1 > eval line 2198 > eval:1:162
+k@https://pagead2.googlesyndication.com/bg/LfFQ5hcFG3hXPsOLdOnrUHUTGTSsMRvOgIlCDTigNb8.js line 1 > eval line 2198 > eval:1:109
+V.prototype.$</<@https://pagead2.googlesyndication.com/bg/LfFQ5hcFG3hXPsOLdOnrUHUTGTSsMRvOgIlCDTigNb8.js line 1 > eval:2198:11544
+mL@https://pagead2.googlesyndication.com/bg/LfFQ5hcFG3hXPsOLdOnrUHUTGTSsMRvOgIlCDTigNb8.js line 1 > eval:2198:7070
+Cs<@https://pagead2.googlesyndication.com/bg/LfFQ5hcFG3hXPsOLdOnrUHUTGTSsMRvOgIlCDTigNb8.js line 1 > eval:2198:11670
+r@https://pagead2.googlesyndication.com/bg/LfFQ5hcFG3hXPsOLdOnrUHUTGTSsMRvOgIlCDTigNb8.js line 1 > eval:2198:12105
+Cs</<@https://pagead2.googlesyndication.com/bg/LfFQ5hcFG3hXPsOLdOnrUHUTGTSsMRvOgIlCDTigNb8.js line 1 > eval:2198:11707
+
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 266: TypeError: this._builder is undefined
+1601062396326	Marionette	INFO	Stopped listening on port 52928
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

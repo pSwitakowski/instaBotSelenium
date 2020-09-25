@@ -10,12 +10,14 @@ from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 
 def getDriver():
-    options = webdriver.ChromeOptions()
-    options.add_argument("start-maximized")     # self-explanatory
-    options.add_argument("--disable-blink-features=AutomationControlled")       # disables "automated" pop-up, also helps not getting detected
-    _driver = webdriver.Chrome(executable_path='C:\Python\chromedriver.exe', options=options)
+    # options = webdriver.FirefoxOptions()
+    binary = FirefoxBinary('C:\\Users\\piotr.switakowski\\AppData\Local\\Mozilla Firefox\\firefox.exe')
+    # options.add_argument("accept-language=en-US")  # self-explanatory
+    # options.add_argument(
+    # "--disable-blink-features=AutomationControlled")  # disables "automated" pop-up, also helps not getting detected (or not), doesnt work, probably bad name
+    _driver = webdriver.Firefox(executable_path='C:\Python\geckodriver.exe', firefox_binary=binary)
+    # executable_path='C:\Python\chromedriver.exe', options=options
     return _driver
-
 
 def clearInput(*args):
     for x in args:
@@ -39,6 +41,8 @@ def log_in(_login, _password):
         password_input.send_keys(_password)
         waitRandomTime()
         password_input.send_keys(Keys.RETURN)
+
+
     except Exception as ex:
         print(ex)
         driver.quit()
