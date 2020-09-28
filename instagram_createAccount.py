@@ -1,69 +1,75 @@
 import time
 import random
 import string
+import pyperclip
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-
-# for firefox compatibility
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from selenium.webdriver.common.proxy import Proxy, ProxyType
 
 
-def getDriver():
-    # options = webdriver.FirefoxOptions()
-    binary = FirefoxBinary('C:\\Users\\piotr.switakowski\\AppData\Local\\Mozilla Firefox\\firefox.exe')
-    # options.add_argument("accept-language=en-US")  # self-explanatory
-    # options.add_argument(
-    # "--disable-blink-features=AutomationControlled")  # disables "automated" pop-up, also helps not getting detected (or not), doesnt work, probably bad name
-    _driver = webdriver.Chrome(executable_path='C:\Python\chromedriver.exe')
-    # executable_path='C:\Python\chromedriver.exe', options=options
+def get_driver():
+    options = webdriver.ChromeOptions()
+    # PROXY = "147.135.7.122:3128"
+
+    options.add_argument("accept-language=en-US")  # set english browser language
+    options.add_argument("--start-maximized")  # set full screen browser
+    # options.add_argument('--proxy-server=%s' % PROXY)  # set proxy
+    options.add_argument("--disable-blink-features=AutomationControlled")  # disables "automated" pop-up, also helps not getting detected (or not), doesnt work hehe
+
+    _driver = webdriver.Chrome(executable_path='C:\Python\chromedriver.exe', options=options)
+
     return _driver
 
 
-def clearInput(*args):
-    for x in args:
-        x.clear()
+def clear_input(*args):
+    try:
+        for x in args:
+            x.clear()
+    except Exception:
+        # driver.quit()
+        print("Not a clearable web element!")
 
 
-def printCurrentAction(string):
-    print(string + "...     ", end='')
+def print_current_action(action_string):
+    print(action_string + "...     ", end='')
 
 
-def printActionResult(ok=True):
+def print_action_result(ok=True):
     if not ok:
-        print("FAILURE\n\n")
+        print("[failure]\n\n")
     else:
-        print("OK\n\n")
+        print("[success]\n\n")
 
 
-def sleepAndQuit(seconds):
+def close_browser(seconds):
     global driver
     time.sleep(seconds)
     print("!EXIT!")
     driver.quit()
 
 
-def waitRandomTime(start=0.5, end=3.0):
+def wait_random_time(start=0.5, end=3.0):
     random.seed()
     time.sleep(random.uniform(start, end))
 
 
-def id_generator(size=3, chars=string.ascii_uppercase + string.digits):
+def generate_id(size=4, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
 
-def password_generator(size=10, chars=string.ascii_letters + string.digits):
+def generate_password(size=10, chars=string.ascii_letters + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
 
-def generateUsername(_full_name):
-    return _full_name.replace(" ", ".") + '.' + id_generator()
+def generate_username(_full_name):
+    return _full_name.replace(" ", ".") + '.' + generate_id()
 
 
-def getRandomUsername():
+def get_random_fullname():
     global driver
     # name_url = "https://www.name-generator.org.uk/quick/"
 
@@ -85,9 +91,9 @@ def getRandomUsername():
         driver.quit()
 
 
-def getMail():
+def get_random_mail():
     global driver
-    mail_url = 'https://owlymail.com/'
+    mail_url = 'https://temp-mail.org/pl/'
 
     # opening second tab
     driver.get(mail_url)
@@ -95,12 +101,26 @@ def getMail():
 
     #inside the second tab
     reset_button = WebDriverWait(driver, 8).until(
-    EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[1]/div/div[1]/div[2]/form[2]/input[2]')))
+    EC.presence_of_element_located((By.ID, 'click-to-delete')))
     reset_button.click()
 
-    _mail = WebDriverWait(driver, 8).until(
-        EC.presence_of_element_located((By.ID, 'current-id'))).get_attribute('value')
-    time.sleep(1)
+    time.sleep(5)
+
+    # _mail = WebDriverWait(driver, 10).until(
+    #     EC.text_to_be_present_in_element_value('mail')
+    # )
+
+    #copy email to clipboard
+    ActionChains(driver).move_to_element(driver.find_element_by_id('click-to-copy')).click().perform()
+    _mail = pyperclip.paste()
+    # _mail = driver.find_element_by_id('mail').text
+
+    print("mail: " + _mail)
+
+
+    # _mail = WebDriverWait(driver, 8).until(
+    #     EC.presence_of_element_located((By.ID, 'current-id'))).get_attribute('value')
+    # time.sleep(1)
 
     #driver.close()
 
@@ -110,7 +130,40 @@ def getMail():
     return _mail
 
 
-def saveCredentialsToFile(_credentials):
+def fill_activation_code_form():
+    global driver
+
+    if driver.current_window_handle != driver.window_handles[-1]:  # if driver is in instagram tab, switch it to mail tab
+        print("Switching to mail tab")
+        driver.switch_to.window(driver.window_handles[-1])
+
+        # wait for mail
+        WebDriverWait(driver, 120).until(
+            EC.presence_of_element_located((By.XPATH, '/html/body/main/div[1]/div/div[3]/div[2]/div/div[1]/div/div[4]/ul/li[2]/div[1]')))
+
+        # open mail
+        ActionChains(driver).move_to_element(driver.find_element_by_xpath('/html/body/main/div[1]/div/div[3]/div[2]/div/div[1]/div/div[4]/ul/li[2]/div[1]/a')).click().perform()
+
+        # get activation code from mail
+        _mail_code = WebDriverWait(driver, 5).until(
+            EC.presence_of_element_located((By.XPATH,'//*[@id="email_content"]/table/tbody/tr[4]/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td[2]'))
+        ).text
+
+        print("mail code: ", _mail_code)
+
+        # switch to instagram tab
+        driver.switch_to.window(driver.window_handles[0])
+
+        # enter activation code
+        activation_input = driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/article/div/div[1]/div[2]/form/div/div[1]/input')
+        activation_input.send_keys(_mail_code)
+        time.sleep(1)
+        activation_input.send_keys(Keys.RETURN)
+
+
+
+
+def save_credentials_to_file(_credentials):
     file_name = 'credentials.txt'
     file = open(file_name, "a+")
     # print('file path: ', str(os.getcwd()) + '\\' + file_name)
@@ -119,36 +172,36 @@ def saveCredentialsToFile(_credentials):
     file.close()
 
 
-def fillRegistration(_mail, _full_name, _user_name, _password):
+def fill_registration_form(_mail, _full_name, _user_name, _password):
     try:
         mail_input = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.NAME, 'emailOrPhone')))
         full_name_input = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.NAME, 'fullName')))
         user_name_input = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.NAME, 'username')))
         password_input = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.NAME, 'password')))
 
-        clearInput(mail_input, full_name_input, user_name_input, password_input)
+        clear_input(mail_input, full_name_input, user_name_input, password_input)
 
         mail_input.send_keys(_mail)
-        waitRandomTime()
+        wait_random_time()
 
         full_name_input.send_keys(_full_name)
-        waitRandomTime()
+        wait_random_time()
 
         user_name_input.send_keys(_user_name)
-        waitRandomTime()
+        wait_random_time()
 
         password_input.send_keys(_password)
-        waitRandomTime(1, 3)
+        wait_random_time(1, 3)
         # ActionChains(driver).move_to_element(driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/article/div/div[1]/div/form/div[7]/div/button')).click().perform()
         password_input.send_keys(Keys.RETURN)
-        waitRandomTime()
+        wait_random_time()
 
     except Exception as ex:
         print(ex)
         driver.quit()
 
 
-def chooseRandomValueFromPicklist(options_list, is_year_picklist=False):
+def choose_random_value_from_picklist(options_list, is_year_picklist=False):
     global driver
 
     random.seed()
@@ -162,7 +215,7 @@ def chooseRandomValueFromPicklist(options_list, is_year_picklist=False):
     picked_option.click()
 
 
-def fillBirthdayForm():
+def fill_birthday_form():
     global driver
 
     if driver.current_url == 'https://www.instagram.com/accounts/emailsignup/':
@@ -172,48 +225,48 @@ def fillBirthdayForm():
 
         year_options = driver.find_elements_by_xpath(
             '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[3]/select/option')
-        chooseRandomValueFromPicklist(year_options, is_year_picklist=True)
-        waitRandomTime()
+        choose_random_value_from_picklist(year_options, is_year_picklist=True)
+        wait_random_time()
 
         month_options = driver.find_elements_by_xpath(
             '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[1]/select/option')
-        chooseRandomValueFromPicklist(month_options)
-        waitRandomTime()
+        choose_random_value_from_picklist(month_options)
+        wait_random_time()
 
         month_day_options = driver.find_elements_by_xpath(
             '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[2]/select/option')
-        chooseRandomValueFromPicklist(month_day_options)
-        waitRandomTime()
+        choose_random_value_from_picklist(month_day_options)
+        wait_random_time()
 
         ActionChains(driver).move_to_element(driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/article/div/div[1]/div/div[6]/button')).click().perform()
 
 
 
-printCurrentAction('Starting the browser')
-driver = getDriver()
-printActionResult()
+print_current_action('Starting the browser')
+driver = get_driver()
+print_action_result()
 
 print('Browser session id: ', driver.session_id)
 start_url = "https://www.instagram.com/accounts/emailsignup/"
 
 print("Start page URL: " + start_url)
 driver.get(start_url)
-printActionResult()
+print_action_result()
 
 
-printCurrentAction("Creating User credentials")
-full_name = getRandomUsername()
-user_name = generateUsername(full_name)
-password = password_generator()
-mail = getMail()
-printActionResult()
+print_current_action("Creating User credentials")
+full_name = get_random_fullname()
+user_name = generate_username(full_name)
+password = generate_password()
+mail = get_random_mail()
+print_action_result()
 
 # debug - instead of getMail
 # driver.switch_to.window(driver.window_handles[0])
 
-printCurrentAction("Filling registration form")
-fillRegistration(mail, full_name, user_name, password)
-printActionResult()
+print_current_action("Filling registration form")
+fill_registration_form(mail, full_name, user_name, password)
+print_action_result()
 
 credentials = {
     "mail": mail,
@@ -224,12 +277,16 @@ credentials = {
 print('User credentials: ', credentials)
 
 
-printCurrentAction("Saving User credentials to file")
-saveCredentialsToFile(credentials)
-printActionResult()
+print_current_action("Saving User credentials to file")
+save_credentials_to_file(credentials)
+print_action_result()
 
-printCurrentAction("Filling birthday form")
-fillBirthdayForm()
-printActionResult()
+print_current_action("Filling birthday form")
+fill_birthday_form()
+print_action_result()
+
+print_current_action("Getting mail activation code")
+fill_activation_code_form()
+
 
 # sleepAndQuit(7)
