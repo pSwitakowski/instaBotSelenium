@@ -11,11 +11,10 @@ from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 def getDriver():
     # options = webdriver.FirefoxOptions()
-    binary = FirefoxBinary('C:\\Users\\piotr.switakowski\\AppData\Local\\Mozilla Firefox\\firefox.exe')
     # options.add_argument("accept-language=en-US")  # self-explanatory
     # options.add_argument(
     # "--disable-blink-features=AutomationControlled")  # disables "automated" pop-up, also helps not getting detected (or not), doesnt work, probably bad name
-    _driver = webdriver.Firefox(executable_path='C:\Python\geckodriver.exe', firefox_binary=binary)
+    _driver = webdriver.Chrome(executable_path='C:\Python\geckodriver.exe', firefox_binary=binary)
     # executable_path='C:\Python\chromedriver.exe', options=options
     return _driver
 

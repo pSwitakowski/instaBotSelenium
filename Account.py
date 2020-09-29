@@ -10,7 +10,7 @@ class Account:
 
     def save_credentials_to_file(self):
         try:
-            file_name = 'credentials.txt'
+            file_name = 'users.csv'
             file = open(file_name, "a+")
 
             json_acc = json.dumps(self.__dict__)

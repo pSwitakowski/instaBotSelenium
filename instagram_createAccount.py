@@ -22,8 +22,16 @@ class RegistrationDriver:
         # options.add_argument("--start-maximized")  # set full screen browser
         # options.add_argument('--proxy-server=%s' % PROXY)  # set proxy
         options.add_argument("--disable-blink-features=AutomationControlled")  # disables "automated" pop-up, also helps not getting detected (or not), doesnt work hehe
+        options.add_argument("start-maximized")
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
 
-        self.driver = webdriver.Chrome(options=options)
+
+        self.driver = webdriver.Chrome(options=options, executable_path='C:\Python\chromedriver.exe')
+        self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        self.driver.execute_cdp_cmd('Network.setUserAgentOverride', {"userAgent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.53 Safari/537.36'})
+        self.driver.execute_script("return navigator.userAgent;")
+        self.driver.delete_all_cookies()
 
     def open_start_page(self, url):
         DriverUtils.print_current_action("Entering URL: " + url)
@@ -125,13 +133,15 @@ class RegistrationDriver:
                 # enter activation code
                 activation_input = self.driver.find_element_by_xpath(
                     '//*[@id="react-root"]/section/main/div/article/div/div[1]/div[2]/form/div/div[1]/input')
-                activation_input.send_keys(_mail_code)
 
                 DriverUtils.clear_input(activation_input)
+                activation_input.send_keys(_mail_code)
+
 
                 DriverUtils.wait_random_time()
 
-                activation_input.send_keys(Keys.RETURN)
+                ActionChains(self.driver).move_to_element(self.driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/article/div/div[1]/div[2]/form/div/div[2]/button')).click().perform()
+                # activation_input.send_keys(Keys.RETURN)
         except Exception:
             DriverUtils.print_action_result(False)
             self.driver.quit()
