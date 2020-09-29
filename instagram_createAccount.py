@@ -17,19 +17,27 @@ from DriverUtils import DriverUtils
 class RegistrationDriver:
     def __init__(self):
         options = webdriver.ChromeOptions()
-        # PROXY = "147.135.7.122:3128"
+
+        # proxy = Proxy()
+        # proxy.proxyType = ProxyType.MANUAL
+        # proxy.autodetect = False
+        # proxy.httpProxy = proxy.sslProxy = proxy.socksProxy = '46.101.212.177:9050'
+        # options.Proxy = proxy
+
+
+
         options.add_argument("accept-language=en-US")  # set english browser language
-        # options.add_argument("--start-maximized")  # set full screen browser
-        # options.add_argument('--proxy-server=%s' % PROXY)  # set proxy
+        # proxy = '46.101.212.177:9050'
+        # options.add_argument('--proxy-server=socks5://' + proxy)
         options.add_argument("--disable-blink-features=AutomationControlled")  # disables "automated" pop-up, also helps not getting detected (or not), doesnt work hehe
         options.add_argument("start-maximized")
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
 
-
         self.driver = webdriver.Chrome(options=options, executable_path='C:\Python\chromedriver.exe')
         self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-        self.driver.execute_cdp_cmd('Network.setUserAgentOverride', {"userAgent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.53 Safari/537.36'})
+        self.driver.execute_cdp_cmd('Network.setUserAgentOverride', {
+            "userAgent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.53 Safari/537.36'})
         self.driver.execute_script("return navigator.userAgent;")
         self.driver.delete_all_cookies()
 
@@ -64,7 +72,7 @@ class RegistrationDriver:
             if len(self.driver.window_handles) > 1:
                 self.driver.switch_to.window(self.driver.window_handles[-1])
 
-                _full_name = WebDriverWait(self.driver, 8).until(
+                _full_name = WebDriverWait(self.driver, 20).until(
                     EC.presence_of_element_located(
                         (By.XPATH, '/html/body/div[2]/div[1]/div[2]/div[3]/div/div/form/div[1]'))).text
 

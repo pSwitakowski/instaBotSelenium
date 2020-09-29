@@ -572,3 +572,4 @@
 [0928/152950.015:ERROR:file_io_win.cc(162)] CreateFile C:\Users\PIOTR~1.SWI\AppData\Local\Temp\scoped_dir18372_1742949773\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
 [0928/153943.051:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
 [0928/174345.361:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\PIOTR~1.SWI\AppData\Local\Temp\scoped_dir15468_1456453139\Crashpad: The system cannot find the file specified. (0x2)
+[0929/171038.490:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\PIOTR~1.SWI\AppData\Local\Temp\scoped_dir13848_951830675\Crashpad: The system cannot find the file specified. (0x2)
